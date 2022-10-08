@@ -2,10 +2,10 @@
 
 ## API WEBSITE SOURCE USE IN THIS PROJECT
 
--- https://opencagedata.com/dashboard
--- https://openweathermap.org/
+- https://opencagedata.com/dashboard
+- https://openweathermap.org/
 
 ### USEFUL WEBSITE FOR REFERENCE AND DOCUMENTATIONS
 
--- https://tc39.es/
--- https://www.javascripttutorial.net/javascript-dom/javascript-style/
+- https://tc39.es/
+- https://www.javascripttutorial.net/javascript-dom/javascript-style/
