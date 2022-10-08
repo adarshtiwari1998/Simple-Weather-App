@@ -1,0 +1,149 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* line-height: 1; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: #222;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 120%;
+}
+
+.card {
+  background: #000000d0;
+  color: #fff;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  /* max-height: initial; */
+  margin: 1em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: #fff;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
+}
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  width: 44px;
+  height: 44px;
+  outline: none;
+  background: #7c7c7c2b;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #7c7c7c6b;
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.4em;
+}
+
+.icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.icon_img {
+  background: #acc8e5;
+  border-radius: 50%;
+}
+
+/* .humidity::last-word {
+    background: #acc8e5;
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem !important;
+    margin-bottom: 8px;
+    color: #333;
+    color: red;
+    border-radius: 100px;
+    font-weight: 600;
+  } */
+
+.icon-desc-heading {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 40px;
+  position: relative;
+}
+
+.weather.loading:after {
+  visibility: visible;
+  content: "Search for city like - Delhi, Bengaluru, Hyderbad, Chennai, Pune and many more... ";
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 8px;
+}
+
+/* Read More style */
+.read-more-data {
+  margin-top: 20px;
+  font-size: 80%;
+}
+.read-more {
+  /* font-size: 80%; */
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+.read-more,
+.show_hide:link,
+.read-more .show_hide:visited {
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+.read-more .show_hide:hover,
+.read-more .show_hide:active {
+  text-decoration: underline;
+}
+
+/*  */
+
+#text {
+  display: none;
+}
