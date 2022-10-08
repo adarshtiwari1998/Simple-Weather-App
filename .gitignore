@@ -1,3 +1,31 @@
-OPEN WEATHER API KEY "d26e112884154f01160cdbfe4d5fadeb"
+* OPEN WEATHER API KEY "d26e112884154f01160cdbfe4d5fadeb"
 
-OPENCAGEDATA LOCATION API KEY = "6e94e52c3edf427998ce47923b9679fa"
+** OPENCAGEDATA LOCATION API KEY = "6e94e52c3edf427998ce47923b9679fa"
+
+
+
+# Youtube Tutorial of this project
+-- WITHOUT GEOLOCATION -> https://www.youtube.com/watch?v=WZNG8UomjSI
+-- WITH GEOLOCATION -> https://www.youtube.com/watch?v=JdJ2VBbYYTQ
+
+
+## GITHUB SOURCE OF THIS CHANNEL
+-- https://github.com/DenverCoder1/weather-app-tutorial
+
+
+
+### API WEBSITE SOURCE USE IN THIS PROJECT
+-- https://opencagedata.com/dashboard
+-- https://openweathermap.org/
+
+
+
+#### USEFUL JAVASCRIPT WEBSITE FOR REFERENCE AND DOCUMENTATIONS
+-- https://tc39.es/
+-- https://www.javascripttutorial.net/javascript-dom/javascript-style/
+
+
+##### MY GITHUB SOURCE LINK
+-- https://github.com/adarshtiwari1998/Simple-Weather-App
+
+
